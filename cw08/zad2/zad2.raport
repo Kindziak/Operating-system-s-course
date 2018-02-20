@@ -1,0 +1,40 @@
+ZAD 2a
+
+1. Wysylanie sygnalu do procesu, gdy zaden watek nie ma zamaskowanego tego sygnalu.
+- SIGUSR1 (10) - na terminalu zostalo wypisane: User defined signal 1
+- SIGTERM (15) - na terminalu zostalo wypisane: Terminated
+- SIGKILL (9) - na terminalu zostalo wypisane: Killed
+- SIGSTOP (19) - na terminalu zostalo wypisane: Zatrzymano  (proces)
+
+2. Wysylanie sygnalu do procesu, gdy glowny watek nie ma zamaskowanego tego sygnalu.
+- SIGUSER1 (10) - program dziala normalnie
+- SIGTERM (15) - program dziala normalnie
+- SIGKILL (9) - na terminalu zostalo wypisane: Killed
+- SIGSTOP (19) - na terminalu zostalo wypisane: Zatrzymano  (proces)
+
+Sygnaly 9 i 19 dzialaja domyslnie, gdyz nie mozemy ich zamaskowac.
+
+3. Wyslanie sygnalu do procesu, gdy wszystkie watki maja zainstalowana niestandardowa procedure obslugi przerwania, ktora wypisuje informacje o nadejsciu tego sygnalu oraz PID i TID danego watku.
+- SIGUSER1 (10) - program dziala normalnie i do tego lapie sygnal i wypisuje go
+- SIGTERM (15) - program dziala normalnie i do tego lapie sygnal i wypisuje go
+- SIGKILL (9) - na terminalu zostalo wypisane: Killed
+- SIGSTOP (19) - na terminalu zostalo wypisane: Zatrzymano  (proces)
+
+4. Wyslanie sygnalu do watku z zamaskowanym tym sygnalem.
+- SIGUSER1 (10) - program dziala normalnie lub na terminalu zostalo wypisane: User defined signal 1
+- SIGTERM (15) - program dziala normalnie lub na terminalu zostalo wypisane: Terminated
+- SIGKILL (9) - na terminalu zostalo wypisane: Killed
+- SIGSTOP (19) - na terminalu zostalo wypisane: Zatrzymano  (proces) i czasem pojawia sie jeden komunikat o znalezionym slowie w pliku
+
+5. Wyslanie sygnalu do watku, w ktorym zmieniona jest procedura obslugi sygnalu, jak przedstawiono w punkcie 3.
+- SIGUSER1 (10) - program dziala normalnie i do tego lapie sygnal i wypisuje go lub na terminalu zostalo wypisane: User defined signal 1
+- SIGTERM (15) - program dziala normalnie i do tego lapie sygnal i wypisuje go lub na terminalu zostalo wypisane: Terminated
+- SIGKILL (9) - na terminalu zostalo wypisane: Killed
+- SIGSTOP (19) - na terminalu zostalo wypisane: Zatrzymano  (proces) i czasem pojawia sie jeden komunikat o znalezionym slowie w pliku
+
+----------
+ZAD 2b
+
+Na terminalu pojawilo sie: Floating point exception (zrzut pamieci).
+Blad w jednym watku spowodowal ubicie pozostalych watkow oraz zakonczenie calego programu.
+(Maszyna wirtualna LINUX FEDORA 25, 4.8.6-300.fc25.x86_64)
