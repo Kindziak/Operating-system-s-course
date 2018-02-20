@@ -1,0 +1,96 @@
+DLA SORTOWANIA!
+
+----------
+
+Rozmiar rekordu: 4
+Ilosc rekordow: 2000
+
+Rodzaj: SYS
+REAL TIME: 26.62, USER TIME: 1.18, SYSTEM TIME: 20.79
+
+Rodzaj: LIB
+REAL TIME: 47.51, USER TIME: 9.10, SYSTEM TIME: 32.51
+
+-----------
+
+Rozmiar rekordu: 512
+Ilosc rekordow: 2000
+
+Rodzaj: SYS
+REAL TIME: 23.38, USER TIME: 1.17, SYSTEM TIME: 18.50
+
+Rodzaj: LIB
+REAL TIME: 50.36, USER TIME: 9.35, SYSTEM TIME: 34.65
+
+-----------
+
+Rozmiar rekordu: 4096
+Ilosc rekordow:
+
+Rodzaj: SYS
+REAL TIME: 26.90, USER TIME: 1.21, SYSTEM TIME: 21.76
+
+Rodzaj: LIB
+REAL TIME: 41.98, USER TIME: 7.78, SYSTEM TIME: 28.67
+
+-----------
+
+Rozmiar rekordu: 8192
+Ilosc rekordow:
+
+Rodzaj: SYS
+REAL TIME: 32.89, USER TIME: 1.04, SYSTEM TIME: 27.71
+
+Rodzaj: LIB
+REAL TIME: 59.21, USER TIME: 8.97, SYSTEM TIME: 40.87
+
+---------------------------------------------------
+
+DLA SHUFFLE!
+
+Rozmiar rekordu: 4
+Ilosc rekordow: 2000
+
+Rodzaj: SYS
+REAL TIME: 0.08, USER TIME: 0.01, SYSTEM TIME: 0.05
+
+Rodzaj: LIB
+REAL TIME: 0.12, USER TIME: 0.03, SYSTEM TIME: 0.06
+
+-----------
+
+Rozmiar rekordu: 512
+Ilosc rekordow: 2000
+
+Rodzaj: SYS
+REAL TIME: 0.10, USER TIME: 0.01, SYSTEM TIME: 0.07
+
+Rodzaj: LIB
+REAL TIME: 0.14, USER TIME: 0.02, SYSTEM TIME: 0.09
+
+-----------
+
+Rozmiar rekordu: 4096
+Ilosc rekordow: 2000
+
+Rodzaj: SYS
+REAL TIME: 0.13, USER TIME: 0.01, SYSTEM TIME: 0.09
+
+Rodzaj: LIB
+REAL TIME: 0.12, USER TIME: 0.02, SYSTEM TIME: 0.09
+
+-----------
+
+Rozmiar rekordu: 8192
+Ilosc rekordow: 2000
+
+Rodzaj: SYS
+REAL TIME: 0.23, USER TIME: 0.01, SYSTEM TIME: 0.12
+
+Rodzaj: LIB
+REAL TIME: 0.27, USER TIME: 0.02, SYSTEM TIME: 0.15
+
+---------------------------------------------------
+
+WNIOSKI:
+Program dziala szybciej w SYS, a wiekszosc czasu rzeczywistego to czas systemowy.

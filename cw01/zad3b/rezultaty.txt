@@ -1,0 +1,212 @@
+#biblioteki statyczne O0 - brak optymalizacji
+DLA LISTY !!!
+Tworzenie ksiazki adresowej.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Dodawanie pojedynczego elementu.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Usuwanie kontaktu z ksiazki - optymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Usuwanie kontaktu z ksiazki - pesymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Wyszukiwanie kontaktu w ksiazce - optymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Wyszukiwanie kontaktu w ksiazce - pesymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Sortowanie ksiazki.
+REAL TIME: 1.43, USER TIME: 1.26, SYSTEM TIME: 0.05
+Usuwanie ksiazki.
+- pustej
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+- niepustej
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+DLA DRZEWA !!!
+Tworzenie ksiazki adresowej.
+REAL TIME: 0.43, USER TIME: 0.38, SYSTEM TIME: 0.01
+Dodawanie pojedynczego elementu.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Usuwanie kontaktu z ksiazki - optymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Usuwanie kontaktu z ksiazki - pesymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Wyszukiwanie kontaktu w ksiazce - optymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Wyszukiwanie kontaktu w ksiazce - pesymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Sortowanie ksiazki.
+REAL TIME: 0.34, USER TIME: 0.29, SYSTEM TIME: 0.01
+Usuwanie ksiazki.
+- pustej
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+- niepustej
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+
+#biblioteki statyczne O1 - slaba optymalizacja
+DLA LISTY !!!
+Tworzenie ksiazki adresowej.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Dodawanie pojedynczego elementu.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Usuwanie kontaktu z ksiazki - optymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Usuwanie kontaktu z ksiazki - pesymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Wyszukiwanie kontaktu w ksiazce - optymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Wyszukiwanie kontaktu w ksiazce - pesymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Sortowanie ksiazki.
+REAL TIME: 1.34, USER TIME: 1.28, SYSTEM TIME: 0.00
+Usuwanie ksiazki.
+- pustej
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+- niepustej
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+DLA DRZEWA !!!
+Tworzenie ksiazki adresowej.
+REAL TIME: 0.26, USER TIME: 0.26, SYSTEM TIME: 0.00
+Dodawanie pojedynczego elementu.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Usuwanie kontaktu z ksiazki - optymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Usuwanie kontaktu z ksiazki - pesymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Wyszukiwanie kontaktu w ksiazce - optymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Wyszukiwanie kontaktu w ksiazce - pesymistyczny.
+REAL TIME: 0.01, USER TIME: 0.00, SYSTEM TIME: 0.00
+Sortowanie ksiazki.
+REAL TIME: 0.21, USER TIME: 0.21, SYSTEM TIME: 0.00
+Usuwanie ksiazki.
+- pustej
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+- niepustej
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+
+#biblioteki statyczne O2
+DLA LISTY !!!
+Tworzenie ksiazki adresowej.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Dodawanie pojedynczego elementu.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Usuwanie kontaktu z ksiazki - optymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Usuwanie kontaktu z ksiazki - pesymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Wyszukiwanie kontaktu w ksiazce - optymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Wyszukiwanie kontaktu w ksiazce - pesymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Sortowanie ksiazki.
+REAL TIME: 1.18, USER TIME: 1.11, SYSTEM TIME: 0.00
+Usuwanie ksiazki.
+- pustej
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+- niepustej
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+DLA DRZEWA !!!
+Tworzenie ksiazki adresowej.
+REAL TIME: 0.49, USER TIME: 0.47, SYSTEM TIME: 0.00
+Dodawanie pojedynczego elementu.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Usuwanie kontaktu z ksiazki - optymistyczny.
+REAL TIME: 0.00, USER TIME: 0.01, SYSTEM TIME: 0.00
+Usuwanie kontaktu z ksiazki - pesymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Wyszukiwanie kontaktu w ksiazce - optymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Wyszukiwanie kontaktu w ksiazce - pesymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Sortowanie ksiazki.
+REAL TIME: 0.61, USER TIME: 0.54, SYSTEM TIME: 0.02
+Usuwanie ksiazki.
+- pustej
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+- niepustej
+REAL TIME: 0.01, USER TIME: 0.00, SYSTEM TIME: 0.00
+
+#biblioteki statyczne O3 - silna, agresywna, przez wielu uwazana za ryzykowna
+DLA LISTY !!!
+Tworzenie ksiazki adresowej.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Dodawanie pojedynczego elementu.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Usuwanie kontaktu z ksiazki - optymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Usuwanie kontaktu z ksiazki - pesymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Wyszukiwanie kontaktu w ksiazce - optymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Wyszukiwanie kontaktu w ksiazce - pesymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Sortowanie ksiazki.
+REAL TIME: 1.22, USER TIME: 1.15, SYSTEM TIME: 0.01
+Usuwanie ksiazki.
+- pustej
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+- niepustej
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+DLA DRZEWA !!!
+Tworzenie ksiazki adresowej.
+REAL TIME: 0.83, USER TIME: 0.74, SYSTEM TIME: 0.02
+Dodawanie pojedynczego elementu.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Usuwanie kontaktu z ksiazki - optymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Usuwanie kontaktu z ksiazki - pesymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Wyszukiwanie kontaktu w ksiazce - optymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Wyszukiwanie kontaktu w ksiazce - pesymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Sortowanie ksiazki.
+REAL TIME: 0.46, USER TIME: 0.45, SYSTEM TIME: 0.00
+Usuwanie ksiazki.
+- pustej
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+- niepustej
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+
+#biblioteki statyczne Os - optymalizacja rozmiaru
+DLA LISTY !!!
+Tworzenie ksiazki adresowej.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Dodawanie pojedynczego elementu.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Usuwanie kontaktu z ksiazki - optymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Usuwanie kontaktu z ksiazki - pesymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Wyszukiwanie kontaktu w ksiazce - optymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Wyszukiwanie kontaktu w ksiazce - pesymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Sortowanie ksiazki.
+REAL TIME: 1.62, USER TIME: 1.46, SYSTEM TIME: 0.02
+Usuwanie ksiazki.
+- pustej
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+- niepustej
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+DLA DRZEWA !!!
+Tworzenie ksiazki adresowej.
+REAL TIME: 0.48, USER TIME: 0.46, SYSTEM TIME: 0.00
+Dodawanie pojedynczego elementu.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Usuwanie kontaktu z ksiazki - optymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Usuwanie kontaktu z ksiazki - pesymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Wyszukiwanie kontaktu w ksiazce - optymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Wyszukiwanie kontaktu w ksiazce - pesymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Sortowanie ksiazki.
+REAL TIME: 0.37, USER TIME: 0.36, SYSTEM TIME: 0.00
+Usuwanie ksiazki.
+- pustej
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+- niepustej
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+
+W czasach, któr można porównać (czyli są inne niż 0.00) widać, że nie ma
+jakiegoś szczególnego przełożenia poziomów optymalizacji na czas wykonania.

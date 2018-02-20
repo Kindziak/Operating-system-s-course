@@ -1,0 +1,38 @@
+Na poczatku wywolalam moj Makefile. Nastepnie sprawdzilam za pomoca polecenia:
+ps -auxw | grem main1 jaki PID ma moj proces. Kolejno uruchomilam gdb:
+gdb ./main1 PID, a w nim wpisalam set loggin on (by zapisywalo wyjscie do pliku)
+oraz run (zeby uruchomilo od poczatku moj program) i where (aby dokladnie
+przesledzilo sciezke bledu).
+
+Blad 1:
+
+Starting program: /home/kkaczmarczyk/Nauka/Sysopy/KaczmarczykKinga/cw01/zad4/main1
+
+Program received signal SIGSEGV, Segmentation fault.
+0x00007ffff7a97312 in free () from /lib64/libc.so.6
+#0  0x00007ffff7a97312 in free () from /lib64/libc.so.6
+#1  0x00000000004014be in releaseListNode (aNode=0x6045a0) at addressBook.c:73
+#2  0x00000000004016a3 in deleteListNode (aList=0x604440, aNode=0x6045a0)
+    at addressBook.c:107
+#3  0x0000000000400d06 in main () at main.c:82
+
+Moj stworzony blad polega na tym, ze uwalniajac pamiec dla ListNode chcialam
+po kolei uwolnic imie, nazwisko itp. i pamiec zostawala podwojnie uwalniana.
+
+Blad 2:
+
+Starting program: /home/kkaczmarczyk/Nauka/Sysopy/Cwiczenie4/main1
+
+Program received signal SIGSEGV, Segmentation fault.
+0x00007ffff7a9e046 in strlen () from /lib64/libc.so.6
+#0  0x00007ffff7a9e046 in strlen () from /lib64/libc.so.6
+#1  0x00007ffff7a60af1 in vfprintf () from /lib64/libc.so.6
+#2  0x00007ffff7a67739 in printf () from /lib64/libc.so.6
+#3  0x000000000040219f in printTree ()
+#4  0x000000000040124e in main ()
+
+Moj stworzony blad polega na tym ze do funkcji printTree wrzucam argument, ktory
+jest Tree, a zadeklarowalam w funkcji, ze powinno sie wrzucic TreeNode. Czyli
+wywolanie funkcji powinno wygladac tak: printTree(aTree -> root), a nie tak:
+printTree(aTree). Przez ten jeden blad nie zgadza sie cala funkcja i nie beda
+poprawnie dzialac pomiejsze funkcje.

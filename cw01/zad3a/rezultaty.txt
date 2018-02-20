@@ -1,0 +1,125 @@
+#biblioteki statyczne
+DLA LISTY !!!
+Tworzenie ksiazki adresowej.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Dodawanie pojedynczego elementu.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Usuwanie kontaktu z ksiazki - optymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Usuwanie kontaktu z ksiazki - pesymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Wyszukiwanie kontaktu w ksiazce - optymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Wyszukiwanie kontaktu w ksiazce - pesymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Sortowanie ksiazki.
+REAL TIME: 1.43, USER TIME: 1.26, SYSTEM TIME: 0.05
+Usuwanie ksiazki.
+- pustej
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+- niepustej
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+DLA DRZEWA !!!
+Tworzenie ksiazki adresowej.
+REAL TIME: 0.43, USER TIME: 0.38, SYSTEM TIME: 0.01
+Dodawanie pojedynczego elementu.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Usuwanie kontaktu z ksiazki - optymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Usuwanie kontaktu z ksiazki - pesymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Wyszukiwanie kontaktu w ksiazce - optymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Wyszukiwanie kontaktu w ksiazce - pesymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Sortowanie ksiazki.
+REAL TIME: 0.34, USER TIME: 0.29, SYSTEM TIME: 0.01
+Usuwanie ksiazki.
+- pustej
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+- niepustej
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+
+#biblioteki dzielone
+DLA LISTY !!!
+Tworzenie ksiazki adresowej.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Dodawanie pojedynczego elementu.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Usuwanie kontaktu z ksiazki - optymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Usuwanie kontaktu z ksiazki - pesymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Wyszukiwanie kontaktu w ksiazce - optymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Wyszukiwanie kontaktu w ksiazce - pesymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Sortowanie ksiazki.
+REAL TIME: 0.87, USER TIME: 0.82, SYSTEM TIME: 0.01
+Usuwanie ksiazki.
+- pustej
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+- niepustej
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+DLA DRZEWA !!!
+Tworzenie ksiazki adresowej.
+REAL TIME: 0.27, USER TIME: 0.27, SYSTEM TIME: 0.00
+Dodawanie pojedynczego elementu.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Usuwanie kontaktu z ksiazki - optymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Usuwanie kontaktu z ksiazki - pesymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Wyszukiwanie kontaktu w ksiazce - optymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Wyszukiwanie kontaktu w ksiazce - pesymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Sortowanie ksiazki.
+REAL TIME: 0.34, USER TIME: 0.28, SYSTEM TIME: 0.02
+Usuwanie ksiazki.
+- pustej
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+- niepustej
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+
+#biblioteki ladowane dynamicznie
+DLA LISTY !!!
+Tworzenie ksiazki adresowej.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Dodawanie pojedynczego elementu.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Usuwanie kontaktu z ksiazki - optymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Usuwanie kontaktu z ksiazki - pesymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Wyszukiwanie kontaktu w ksiazce - optymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Wyszukiwanie kontaktu w ksiazce - pesymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Sortowanie ksiazki.
+REAL TIME: 1.25, USER TIME: 1.20, SYSTEM TIME: 0.00
+Usuwanie ksiazki.
+- pustej
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+- niepustej
+REAL TIME: 0.01, USER TIME: 0.00, SYSTEM TIME: 0.00
+DLA DRZEWA !!!
+Tworzenie ksiazki adresowej.
+REAL TIME: 0.35, USER TIME: 0.35, SYSTEM TIME: 0.00
+Dodawanie pojedynczego elementu.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Usuwanie kontaktu z ksiazki - optymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Usuwanie kontaktu z ksiazki - pesymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Wyszukiwanie kontaktu w ksiazce - optymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Wyszukiwanie kontaktu w ksiazce - pesymistyczny.
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+Sortowanie ksiazki.
+REAL TIME: 0.30, USER TIME: 0.29, SYSTEM TIME: 0.00
+Usuwanie ksiazki.
+- pustej
+REAL TIME: 0.00, USER TIME: 0.00, SYSTEM TIME: 0.00
+- niepustej
+REAL TIME: 0.01, USER TIME: 0.01, SYSTEM TIME: 0.00

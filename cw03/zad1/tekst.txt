@@ -1,0 +1,9 @@
+#ZMIENNA /home/kkaczmarczyk/Z3
+#cos
+./children 1 2 3
+./children
+./main ZMIENNA
+#ZMIENNA
+echo "HaHaHa"
+
+echo "HiHiHi"
